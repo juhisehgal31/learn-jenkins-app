@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        //this is a comment
+        /*
+
+            this is a block comment
+
+    
         stage('Build') {
 
             agent{
@@ -23,7 +29,7 @@ pipeline {
                     ls -ls
                 '''
             }
-        }
+        }*/
         stage('Test')
         {
              agent{
